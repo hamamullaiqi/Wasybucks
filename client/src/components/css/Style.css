@@ -1,0 +1,108 @@
+:root {
+    --red :  #BD0707;
+    
+
+}
+@font-face {
+    font-family:'freight';
+    src: url(/public/font/FreightSansProBold-Regular.woff);
+}
+@font-face {
+    font-family:'avenir-reguler';
+    src: url(/public/font/AvenirLTStd-Roman.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family:'avenir-bold';
+    src: url(/public/font/AvenirLTStd-Black.otf);
+    font-weight: bold;
+}
+
+body{
+    font-family: 'avenir-reguler';
+    font-size: 1rem;
+}
+
+.bg-red {
+    background-color: var(--red);
+    color: white;
+}
+
+.outline-red {
+    border: 2px solid var(--red);
+    background-color: transparent;
+    color: var(--red);
+}
+
+
+.title {
+    font-family:  'freight' ;
+    font-size: 3.75rem;
+   
+}
+.sub-title {
+    font-size: 1.3rem;
+    
+}
+.text-red {
+    color: var(--red);
+}
+.text-bold {
+    font-family: 'avenir-bold';
+    font-weight: bold;
+}
+.red-opacity {
+    background-color: #F6DADA;
+}
+a {
+    text-decoration: none;
+}
+
+.horizline {
+    border: 1px solid red;
+}
+.input-file {
+    display: none;
+}
+.form-file {
+    border: 2px solid #dc3545;
+    color: #6c757d;
+}
+.bg-light-grey {
+    background-color: #E5E5E5;
+    ;
+}
+.card-transaction {
+    line-height: 80%;
+    font-size: 0.9rem;
+}
+.dropdown-item a {
+    color: black;
+}
+.card-text {
+    color: var(--red)
+}
+.Dropdown-Toggle::after {
+    display: none;
+}
+
+.btn-red:hover {
+    background-color: #BD0707 !important;
+    border: none !important;
+}
+.btn-red::before  {
+    background-color: #BD0707 !important;
+    border: none;
+}
+.btn-red:link  {
+    background-color: #BD0707 !important;
+    border: none;
+}
+
+.image-card {
+    max-width: 16rem;
+    height: 20rem;
+    object-fit: cover;
+
+}
+
